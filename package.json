@@ -2,13 +2,19 @@
   "name": "super-blog",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Omar Delarosa",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.11.1"
+    "express": "^4.11.1",
+    "jade": "^1.9.1",
+    "marked": "^0.3.2",
+    "moment": "^2.9.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10"
   }
 }

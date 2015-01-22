@@ -1,0 +1,11 @@
+html
+  head
+    title!= title
+    link(href='/css/prettify.css', rel='stylesheet')
+    script(type='text/javascript', src='http://code.jquery.com/jquery-1.11.2.min.js')
+    script(type='text/javascript', src='https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js')
+  body
+    h1
+      | omar's blog
+    h2!= date
+    div.container!= message
