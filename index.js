@@ -30,4 +30,8 @@ app.get(/p\/(.+)/, function(req, res){
   res.send("PATH!")
 })
 
-app.listen(6000);
+app.get('/', function(req, res) {
+  res.send("welcome.")
+})
+
+app.listen(5005);
