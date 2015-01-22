@@ -17,7 +17,7 @@ app.get(/\d+/, function(req, res){
     if (response.statusCode === 400) {
       res.send("Wooops");
     } else {
-      console.log("RESPONSE", response.toJSON());
+      // console.log("RESPONSE", response.toJSON());
       res.send(body);
     }
   })
@@ -26,7 +26,7 @@ app.get(/\d+/, function(req, res){
 
 // if route has /p/ prefix, treat as a basically normal route
 app.get(/p\/(.+)/, function(req, res){
-  console.log("REQ", req);
+  // console.log("REQ", req);
   res.send("PATH!")
 })
 
